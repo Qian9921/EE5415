@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/cardImageflag"
+            android:src="@drawable/news1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/cardCountryName"
+            android:text="Title Name"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cardImageflag"
+            android:layout_toEndOf="@+id/cardImageflag"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp" />
+        <TextView
+            android:id="@+id/cardCountryArea"
+            android:text="Keyword"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardCountryName"
+            android:layout_alignLeft="@+id/cardCountryName"
+            android:layout_alignStart="@+id/cardCountryName" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

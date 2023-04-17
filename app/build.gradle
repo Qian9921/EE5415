@@ -1,0 +1,72 @@
+
+plugins {
+    id 'com.android.application'
+
+
+
+
+}
+
+android {
+
+    compileSdkVersion 31
+    buildToolsVersion "31.0.0"
+    defaultConfig {
+        applicationId "com.example.newtohk"
+        minSdkVersion 25
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions{
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    packagingOptions {exclude 'META-INF/com.android.tools/proguard/coroutines.pro'}
+
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation files('libs/mysql-connector-java-5.1.47-bin.jar')
+    implementation files('libs/QWeather_Public_Android_V4.5.jar')
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation files('libs/QWeather_Plugin_SDK_Android_V1.5.jar')
+    implementation 'com.aliyun.dpa:oss-android-sdk:2.9.5'
+    implementation 'com.hjq:toast:8.6'
+    implementation 'com.github.gittjy:LoadingDialog:1.0.2'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.google.android.gms:play-services-maps:12.0.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.google.cloud:google-cloud-translate:2.0.0'
+    implementation 'com.alibaba:fastjson:1.1.71.android'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.aliyun.dpa:oss-android-sdk:2.5.0'
+    implementation("com.github.bumptech.glide:okhttp3-integration:4.0.0" ) {
+        exclude group: "com.android.support"
+    }
+
+}

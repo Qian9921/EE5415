@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFF"
+        android:elevation="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="在线翻译"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFF">
+        <!--输入框-->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/stroke_gray"
+            android:gravity="top"
+            android:hint="请输入要翻译的文字内容"
+            android:maxLength="6000"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000"
+            android:textColorLink="#ABABAB"
+            android:textCursorDrawable="@drawable/cursor_style" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/stroke_black_radus"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="翻译"
+        android:textColor="#111"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+</LinearLayout>

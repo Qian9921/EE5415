@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="5pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="1.更换头像、修改密码、发帖、点赞、评论等功能需要先登录；用户名暂不支持修改；密码区分大小写。 "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="2.验证码系统由于各种云服务需要APP上线以后才提供，所以暂时没有实现，固定验证码为123456。 "
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="3.暂时不支持删除帖子、评论功能，所以发帖发言请谨慎~ "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="4.出于运营压力考虑，暂时不提供横屏模式。 "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="5.修改头像请点击“我的”页面左上角。 "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="6.如有其他问题或建议，请忍忍~"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_marginBottom="5pt"
+        android:text="7.想要删除帖子、评论等内容，请发邮件到liangqian2-c@my.cityu.edu.hk"
+        android:textSize="18sp" />
+
+</LinearLayout>

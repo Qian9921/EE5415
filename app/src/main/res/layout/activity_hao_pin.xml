@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginTop="20pt"
+        android:layout_marginRight="20pt"
+        android:text="给个好评吧，求求了！上线以后点上面的按钮就可以去Google Store好评啦！"
+        android:textSize="60px" />
+
+    <Button
+        android:id="@+id/button_hao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="去好评！"
+
+
+        app:layout_constraintHorizontal_bias="1000"
+
+
+        app:layout_constraintVertical_bias="100" />
+</RelativeLayout>

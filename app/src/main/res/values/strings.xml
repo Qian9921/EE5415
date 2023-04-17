@@ -1,0 +1,504 @@
+<resources>
+    <string name="app_name">New To HK</string>
+    <string name="app_intro">欢迎来到香港</string>
+    <string name="app_right">EE5415</string>
+
+    <string name="exit_tip">再按一次退出</string>
+
+    <string name="wait_text">请稍后…</string>
+
+    <string name="MYusername">请登录</string>
+
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="username_text">用户名：</string>
+    <string name="username_text_hint">请输入用户名</string>
+    <string name="password_text">密码：  </string>
+    <string name="password_text_hint">请输入密码</string>
+    <string name="nickname_text">昵称：</string>
+    <string name="nickname_text_hint">请输入昵称</string>
+    <string name="login_btn_text">忘记密码</string>
+    <string name="register_btn_text">注册</string>
+    <string name="register_success_text">注册成功，现在你可以登录啦</string>
+    <string name="register_failed_text">注册失败</string>
+    <string name="login_failed_text">登录失败</string>
+    <string name="logout_btn_text">登出</string>
+    <string name="forgot_password_btn">忘记密码</string>
+    <string name="notification_btn">消息通知</string>
+    <string name="change_password_btn">修改密码</string>
+    <string name="about_us_btn">关于我们</string>
+    <string name="good_comment_btn">给个好评</string>
+    <string name="software_version_btn">软件版本</string>
+    <string name="sign_out_btn">退出登录</string>
+
+
+    <string name="local_btn">Local Food</string>
+    <string name="cn_btn">Chinese Food</string>
+    <string name="west_btn">Western Food</string>
+    <string name="jk_btn">Japanese Food</string>
+    <string name="southeast_btn">Southeast Food</string>
+
+
+    <string name="xinxing_btn">Xinxing restaurant</string>
+    <string name="charsiu_btn">the one charsiu</string>
+    <string name="aozhou_btn">Australian Dairy company</string>
+    <string name="wingnin_btn">Wingnin restaurant</string>
+
+    <string name="xinxing_text">Kennedy Town/Dim sum/＄50-100</string>
+    <string name="charsiu_text">Tai Wai/Roasted meat/＄100-150</string>
+    <string name="aozhou_text">Jordan/Afternoon Tea/＄50-100</string>
+    <string name="wingnin_text">Sha Tin/Noodles/＄100-200</string>
+
+    <string name="xinxingdetail_text">Kennedy Town/Dim sum/＄50-100</string>
+    <string name="xinxingtime_text">OPENING:03:00-16:00,everyday</string>
+    <string name="xinxingphone_text">NUMBER:+852-28160616</string>
+    <string name="xinxingadd_text">ADDRESS:Shop C,G/F,No.8 Smithfield Road,Kennedy Town,Western District</string>
+    <string name="xinxingdish_text">Signature dish:</string>
+    <string name="xinxingpay_text">PAYMENT:Alipay,Wechat,Octopus,Cash</string>
+    <string name="xinxingname_text">Xinxing Restaurant</string>
+    <string name="xinxingdish2_text">Fried milk</string>
+    <string name="xinxingdish3_text">Curry tripe</string>
+    <string name="xinxingrate_text">Welcome to rate!</string>
+    <string name="xinxingdish1_text">Har gow</string>
+
+
+    <string name="xiangshu_btn">xiangshu restaurant</string>
+    <string name="xiji_btn">xiji restaurant</string>
+    <string name="siji_btn">Four seasons</string>
+    <string name="jibao_btn">jibao lazy pot</string>
+
+    <string name="xiangshu_text">Wan Chai/Si-Chuan style/＄100-200</string>
+    <string name="xiji_text">Wan Chai/Seafood/＄100-200</string>
+    <string name="siji_text">Sha Tin/Traditinal/＄100-200</string>
+    <string name="jibao_text">Mong Kok/Hot pot/＄200-400</string>
+
+    <string name="xiangshudetail_text">Wan Chai/Si-Chuan style/＄100-200</string>
+    <string name="xiangshutime_text">OPENING:11:00-15:30,17:30-22:00,everyday</string>
+    <string name="xiangshuphone_text">NUMBER:+852-23809688</string>
+    <string name="xiangshuadd_text">ADDRESS:Shop 218,2nd Floor,181 Johnston Road,Wan Chai</string>
+    <string name="xiangshudish_text">Signature dish:</string>
+    <string name="xiangshupay_text">PAYMENT:Visa,Master,Union pay,Cash</string>
+    <string name="xiangshuname_text">Xiangshu Restaurant</string>
+    <string name="xiangshudish2_text">Hot Chili Oil Fish</string>
+    <string name="xiangshudish3_text">Chili Dumpling</string>
+    <string name="xiangshurate_text">Welcome to rate!</string>
+    <string name="xiangshudish1_text">Hot Chili Oil Beef</string>
+
+
+    <string name="park">Park</string>
+    <string name="hiking">Hiking</string>
+    <string name="island">island</string>
+    <string name="scenery">scenery</string>
+
+    <string name="disney">Disneyland</string>
+    <string name="ocean">Ocean Park</string>
+    <string name="hk">Hong Kong Park</string>
+    <string name="nanlian">Nanlian Garden</string>
+
+    <string name="disneytext">Lantau Island/Amusement/＄500-1000</string>
+    <string name="oceantext">Wong Chuk Hang/Amusement/＄300-600</string>
+    <string name="hktext">Central/Nature/Free</string>
+    <string name="nanlliantext">Kwun Tong/Nature/Free</string>
+
+    <string name="playbtn">Watch</string>
+    <string name="disneyname">Disneyland</string>
+    <string name="disneydetail">Lantau Island/Amusement/＄500-1000</string>
+    <string name="moreinfo">MOREINFO:Hong Kong Disneyland is divided into 7 theme parks, which are Main Street, Adventure World, Fantasy World, Tomorrowland, Toy Story Base, Grizzly Valley and Blurred Manor, the park presents a parade and fireworks display every evening."</string>
+    <string name="website">HOMEPAGE:www.hongkongdisneyland.com</string>
+    <string name="disneyadd">ADDRESS:Chu Hao Wan, Lantau Island, New Territories</string>
+    <string name="disneytime">OPENNING:Everyday except Tuesday and Thursday</string>
+
+
+    <string name="mailihaojing">Maclehose Trail</string>
+    <string name="taipingshan">Victoria Peak</string>
+    <string name="dayushan">Lantau Mountain</string>
+    <string name="shizishan">Lion Rock</string>
+
+    <string name="mailihaojingtext">New Territories/Walk/Free</string>
+    <string name="taipingshantext">Central/Tram/＄50-200</string>
+    <string name="dayushantext">Lantau/Tram/＄50-150</string>
+    <string name="shizishantext">Tai Wai/walk/Free</string>
+
+    <string name="playbtn1">Watch</string>
+    <string name="mailihaojingname">Maclehose Trail</string>
+    <string name="mailihaojingdetail">New Territories/Walk/Free</string>
+    <string name="mailihaojinginfo">MOREINFO:The MacLehose Trail is 100 km long. It is divided into ten paragraphs. The MacLehose Trail has a wide range of scenic spots, such as the 420-meter Cow Ear Stone Hill, 702 meter Ma On Shan, 649 meter Grass Hill and 957 meter Tai Mo Shan.</string>
+    <string name="attention">ATTENTION:Hong Kong emergency call: 999!</string>
+    <string name="mailihaojingadd">ADDRESS:Starting from Pak Tam Chung and ending in Tuen Mun.</string>
+    <string name="mailihaojingtime">OPENNING:Everyday.Be careful when hiking in the wild.</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string-array name="countries_array">
+        <item>学生签证如何申请？小编带你早看早知道！</item>
+        <item>震惊！申上一所港校等于申上八所？快来看看是怎么一回事！</item>
+        <item>赴港留学怎样才能拿下属于自己的身份证？</item>
+        <item>疫情过后的当下通关政策如何？</item>
+        <item>港校申到就是赚到！留学一次回到内地竟有这么多的优惠政策！</item>
+        <item>毕业想留港，如何续签证？小编带你看！</item>
+        <item>去香港留学，别忘了办理香港八达通卡！方便又省钱！</item>
+        <item>香港留学生如何办理银行卡？实用到爆！快来看看吧！</item>
+    </string-array>
+    <string-array name="areas_array">
+        <item>学生签证\n
+            学校会帮忙申请，但资料需要自己准备，还要自己交签证费。每个学校的要求有一点差别，肯定需要的学生签证申请材料如下：\n
+①填写申请表ID995A（原件）
+（下载ID955A申请表：https://www.immd.gov.hk/pdforms/ID995A.pdf）\n
+②近照（尺寸为50mm*40mm 至 55mm*45mm）\n
+③护照（复印件）：护照有效期在课程完结后至少2个月仍然有效\n
+④资产证明和资助人担保证明（复印件）\n
+⑤香港的大学录取通知书确认（复印件）\n
+⑥个人身份证（复印件）\n
+⑦个人港澳通行证（复印件）\n
+⑧签证费\n
+⑨财产证明，以下几种形式都可以成为你的财产证明：\n
+1）个人资信证明（俗称“存款证明”）
+2）银行流水（最好是3个月期限的对账单，附上银行官方盖章）
+3）银行存折
+⑩在读证明（如果你尚未毕业）\n
+一定要牢记ID955A共计7页，分为两个部分：[甲]部（申请来港就读）1-4页，[乙]部（申请以受养人身份来港居留）5-6页（第7页为说明页）。\n
+①除了表格中的“中文姓名”范围，其他地方都建议使用英文填写\n
+②每一页都要签名！\n
+③用大写，为了避免信息录入错误，除了电子邮箱的位置外，其他用英文填写的表格区域都用大写字母\n
+④用电脑填写使用电脑填写，快捷方便，不容易填错，填好之后，流出签名位置简单打印即可。（如表格[乙]部（5-7页）不适用，可不用打印出来，只打印出1-4页即可。）\n
+个人资料填写\n
+①姓名：请严格按照港澳通行证的姓名填写大写姓名的英文字母；\n
+②出生日期：注意格式是日/月/年；\n
+③出生地点：请写出生地的省及国家，例如BEIJING, CHINA；\n
+④旅行证件类别：如护照或者港澳通行证；\n
+⑤在定居国家/地区的居留时间：如在中国内地，可填写年龄对应年月，例如 22年01月；\n
+⑥申请人现时是否在香港：如果不在香港可填写“否”；\n
+⑦签名位置可留空，稍后打印出来用笔签名，自己签名记得划去合法监护人字样；\n
+
+个人资料填写（续）\n
+①照片：照片尺寸为50mm*40mm至55mm*45mm之间，如果找不到可以拍这种尺寸的同学可以直接使用二寸照片；\n
+②拟来港时间：建议填写课程开始的前一到两周的日期；\n
+③拟在港逗留时间：这里填写课程年限，例如一年制的课程，这里可以填写“ONE YEAR”；\n
+④随行受养人：如没有随行受养人，直接忽视留空即可；\n
+⑤签名：记得签名，记得划掉父/母/合法监护人字样；\n
+
+就读资料/学历/生活开支\n
+①在港就读学校名称和地址：香港学校的名称及地址，在官网就可以直接找到，如将在岭南大学就读，可填写LINGNAN UNIVERSITY, 8 CASTLE PEAK ROAD, TUEN MUN, HONG KONG；\n
+②在港就读/修读的的课程：填写你要就读的年级及课程，offer可以找到，年级可以年份表示，例如就读于MScAIBA, 可填写MASTER OF SCIENCE IN ARTIFICIAL INTELLIGENCE AND BUSINESS ANALYTICS (2022/23)；\n
+③在港生活开支/申请人的经济情况：根据实际情况填写，但注意经济状况中的存款需要大于生活开支的总金额；\n
+④签名：跟之前的一样，记得签名，写日期；\n
+
+办理学生签证\n
+签证办理一般时长为6-8周，办好的学生签证学校会直接邮寄给你，是一张巴掌大的粉色贴纸，也称为小粉条，visa label。\n
+当你入境之后，海关会给你一张小白条，又称landing slip，如下图。第一次入境的小白条记录了你签证激活的时间，每次过关都会检查，一定要收好，最好用订书机订在小粉条上。\n
+
+办理逗留D\n
+拿到学生签证后就要办理逗留签了，也称为逗留D，这个和港澳通行证有关。办理流程非常简单，你只要去内地办理港澳通行证的地方，现场提交申请表，小粉条还有近照，再交签证费，通常一周就能拿到了。</item>
+
+
+        <item>八校通\n
+        JULAC是在教咨会下属的八所学校共同协议下，八所学校的教职员及学生可以申请联校图书证，去使用联校成员的图书馆。\n
+        八校图书卡分为两种借书证和阅读证两种，同学们可以按照自己的需求办理~\n
+        借书证是研究生和教职工都可以办理的。新申请免费，换卡需要交50港币的费用。\n
+        而阅读证只有本科生才可以申请。有效期为一年，年费为50港币。\n
+        因为目前这八所高校都使用相同的图书馆系统，学校之间的合作变得so easy，有了JULAC卡，就可以今天在港大的图书馆复习功课，明天在城大的图书馆借阅资料啦！真可谓一卡在手，知识尽被我掌握！
+        哪些学校的学生可以申请八校通呢？\n
+        有的同学会疑惑：\n
+        我的学校可以申请八校通吗？申请了之后可以在哪些学校使用呢？\n
+        八校通是可以让香港八大院校的学生在各个学校之间使用的。所以隶属于八大院校的学生都可以进行申请~但是非八大的同学就不能申请啦。
+        想要申请八校通只要在本校的网上图书馆内填写申请表即可，一周后就能领取啦！</item>
+
+
+        <item>香港身份证\n
+        和内地不同，在香港，街上巡逻的警察是有权力随时查验身份证的新到港的同学们要养成随身携带身份证件的好习惯哦！\n
+适用人群\n
+年满11周岁的香港公民，或将在香港逗留超过180天的人士均需要办理香港身份证。申请人请在前往人士登记办事处申请香港身份证前，先行预约。”也就是说，在大家过完海关后的30天内，就必须办理香港身份证了！
+没有香港身份证会怎样？比如说，如果你想办理移动电话卡或固定电话，就需要出示地址证明和身份证件；并且香港法律规定上街也是要带身份证的，如果没有的话，警察叔叔查到，可能会违法哦。
+申请材料\n
+申请身份证时，年满18岁且持通行证来港的人士要提交以下材料文件正本\n
+· 港澳通行证\n
+· 有效的旅行证件，入境证，护照等\n
+· 香港签证\n
+· 身份证申请书\n
+＃申请材料详情请参考香港政府一站通网页\n
+
+申请地点\n
+人事登记办事处－九龙办事处\n
+地址：深水埗长沙湾道303号长沙湾政府合署3楼（港铁深水埗站A5出口）\n
+办公时间：\n
+周一至周五 8:45am-4:30pm\n
+周六 9:00am-12:30pm\n
+人事登记办事处－港岛办事处\n
+地址：湾仔告士打道7号入境事务大楼8楼（港铁湾仔站c1出口）\n
+办公时间：\n
+周一至周五 9:00am-4:30pm\n
+周六 9:00am-11:30am\n
+人事登记办事处－观塘办事处\n
+地址：观塘伟业街223至231号宏利金融中心2楼3号铺位（港铁观塘站b1出口）\n
+办公时间：\n
+周一至周五 9:00am-12:45pm 2:00pm-4:30pm\n
+周六 9:00am-12:30pm\n
+人事登记办事处－火炭办事处\n
+地址：火炭乐景街2至18号银禧会4楼405至407铺位（港铁火炭站c出口）\n
+办公时间:\n
+周一至周五9:00am-12:45pm 2:00pm-4:30pm\n
+周六9:00am-12:30pm\n
+人事登记办事处－火炭办事处\n
+地址：元朗桥乐坊2号元朗政府合署1楼（港铁朗屏站e出口）\n
+办公时间：\n
+周一至周五 9:00am-12:45pm 2:00pm-4:30pm\n
+周六 9:00am-12:30pm\n
+人事登记办事处实行配额制，换句话说就是每天只处理定量的申请。且8月底会有大量学生抵港，所以大家要尽早通过网址https://www.gov.hk/tc/residents/immigration/idcard/hkic/bookregidcard.htm
+或电话(852) 2598 0888预约，节约排队等候的时间哦！\n
+申请时间\n
+目前，同学们可以通过网络或服务电话预约接下来24个工作日的名额。而香港法例规定需要办理身份证的抵港人士须在抵港30天内办理相关手续。 所以各位同学可以根据自己的到港时间来安排。 每个预约可以有最多四个申请人，赶快约上小伙伴，齐齐去拿香港身份证吧。\n
+预约流程：\n
+电话／网络预约\n
+材料准备\n
+办理手续\n
+领取身份证 （须提交身份证申请收据，然后根据现场工作人员指引，录入左右拇指指纹）\n
+预约步骤\n
+虽然许多公众号都已经说过预约办理的具体步骤，为了方便大家查阅，在这里再一次详细说明一下：\n
+STEP 01\n
+打开网址，下拉到「网上预约服务」一项，点击下方的「网上预约申领香港智能身份证」。\n
+
+STEP 02\n
+阅读页面，点击第一个按钮「预约」。\n
+
+STEP 03\n
+点击右下角的「开始」。\n
+
+STEP 04\n
+你可以办理预约下一个工作天起24个工作天*内的日期。比如今天是8月1日，那么可以预约8月2日到8月26日的名额。阅读完毕点击右下角「继续」。\n
+
+STEP 05\n
+在「甲部：预约详情」部分，按照实际情况选择「申请数目」，数目可选1-4；并在「申请类别」中，点选第一项。同一次预约中，最多可以为4个人申请，可以约上室友和同学一起办理。\n
+
+STEP 06\n
+在「乙部：申请人资料」部分，点击下拉菜单选择第三项「旅游证件」，并在后面的方框中输入港澳通行证的后六位数字，并填写出生日期与年份（月份不用写）。\n
+
+全香港一共有5间人事登记办事处，可向其中的任何一间提出身份证申请。选择一个离自己住所比较近的办事处，并选择现场办理身份证的日期与时刻。一般就近选择的话中文理工教大选「火炭」，科大浸会选「观塘」，城大选「九龙」。
+现场办理须知\n
+· 办理当天你只需要带上你的港澳通行证。\n
+· 到了事务处之后到对应窗口领取筹号和表格，上面需要填写你的香港住址，所以在办理身份证之前各位需要记住自己住处的具体地址进行填写。注意最好不要涂改，如有涂改需要在旁边签名确认。\n
+· 等待叫号然后听officer 吩咐录入指模、照相就可以了
+        </item>
+
+
+        <item>通关政策\n
+        【内地→香港】
+　　1.往来港澳通行证及往来香港签注\n
+　　首先，大家需要确保自己的往来港澳通行证仍在有效期内。若已过期，需要前往常住户口所在地县级以上公安机关出入境管理部门申请。自1月8日，内地居民旅游、商务赴香港签注将恢复办理。因此也需到上述地点申请办理赴港签注。\n
+　　2.通关口岸及预先申请名额\n
+　　（*自2月6日起，取消经粤港陆路口岸出入境预约通关安排，不设通关人员限额。）\n
+　　如果经过海、空、桥的4个口岸（即港珠澳大桥、港澳客运码头、中港客运码头、香港机场）进入香港，只需凭机票、船票、车票即可通关。\n
+　　如果经陆路口岸进入香港，内地居民需要在深圳市政府下辖的网上预约平台进行名额预约，先到先得。其中深圳湾口岸每天限额1万人、文锦渡每天限额5000人、福田口岸每天限额3.5万人。
+　　1月6日上午9时，深圳市陆路口岸赴港预约系统上线。非香港居民前往口岸通关前，务必提前使用本人通关证件号码完成网上预约。\n
+　　●预约渠道：\n
+　　登录预约系统（https://hk.sz.gov.cn:6226/）进行预约；\n
+　　取得有效的通关预约确认单后，要持相关证明（预约短信、截图、纸质证明均可），按照预约指定的口岸和时间进行过关。
+　　系统每日开放预约时间为6时至24时。用户注册登录系统后，可预约7日内（含当天）名额。香港居民从内地返回香港则不受名额限制。\n
+　　注意：若需改变出境日期，请提前1天取消预约。连续2次预约后未按时通关，7天内不允许再次预约。对频繁预约后取消订单的账号，系统将永久禁用。\n
+　　
+　　各口岸服务时间不同，分别为：\n
+　　深圳湾口岸服务时间：早上6:30到晚上12:00；\n
+　　文锦渡口岸服务时间：早上7:00到晚上10:00；\n
+　　福田口岸服务时间：早上6:30到晚上10:30。\n
+　　港珠澳大桥、港澳客运码头、中港客运码头、香港机场的服务时间为24小时。\n
+　　3.48小时核酸检测阴性结果及健康申报\n
+　　出境人员须持48小时内核酸检测阴性结果方可出境，核酸检测结果包含纸质或电子凭证。
+　　同时，请提前通过微信小程序“海关旅客指尖服务”进行健康申报，将核酸检测结果填入海关的出/入境健康申明卡。\n
+　　【香港→内地】\n
+　　1.有效旅行证件\n
+　　内地居民需凭有效期内的往来港澳通行证及赴港签注，在规定时间内从香港返回内地；香港居民则需凭有效期内的港澳居民来往内地通行证（俗称“回乡证”）及香港身份证通关。
+　　2.通关口岸及预先申请名额\n
+　　（*自2月6日起，取消经粤港陆路口岸出入境预约通关安排，不设通关人员限额。）\n
+　　相关安排与内地赴港相若，香港居民赴内地需要登录“香港政府一站通”网站（www.gov.hk）进入系统预约。
+　　系统于1月5日下午6时上线，目前提供1月8日至3月4日未来8个星期的预约时段。1月15日起，逢星期日上午9时加入新一个星期的预约时段。预约系统采用先到先得的方式，每人每次最多可预约4个名额（包含3名同行人）。每名预约人士及其同行的人士只可预约一次，完成该次行程后才可预约下一次。在港内地人士返回内地则不受名额限制。
+　　3.48小时核酸检测阴性结果\n
+　　2月6日前——
+　　自香港入境人员凭行前48小时新冠病毒感染核酸检测阴性结果入境，将检测结果填入海关健康申明卡。\n
+　　2月6日起——
+　　自香港入境人员，如7天内无境外(不含港澳)旅居史，无需凭行前新冠病毒感染核酸检测阴性结果入境;如7天内有境外(不含港澳)旅居史的，由香港特别行政区政府查验其行前48小时新冠病毒感染核酸检测阴性证明，结果为阴性者放行进入内地(3岁及以下婴幼儿可免于查验核酸)。跨境客运承运单位在售票时告知乘客上述核酸检测要求。
+　　香港特区政府设立了社区检测中心及社区检测站，主要为市民提供自费检测服务，作一般社区或私人用途，例如出行或工作证明。提供自费检测服务的地点包括85个社区检测中心及社区检测站。“标准自费服务”（即采样24小时内收到结果证明）的收费上限为150元，“特快自费服务”（ 即采样12小时内收到结果证明）的收费上限为240元。\n
+　　社区检测中心及社区检测站的位置可在此网址进行查询：
+　　https://booking.communitytest.gov.hk/_data/pdf/2023-01-03-a-ctc-cts-contact.pdf\n
+　　市民可到24小时系统预约检测服务：
+　　https://booking.communitytest.gov.hk/form/index_tc.jsp\n
+　　4.入境检疫\n
+　　对健康申报正常且海关口岸常规检疫无异常者，可放行进入社会面。健康申报异常或出现发热等症状人员，由海关进行抗原检测。结果为阳性者，若属于未合并严重基础疾病的无症状感染者或轻型病例，可采取居家、居所隔离或自我照护，其他情况提倡尽快前往医疗机构诊治。结果为阴性者，由海关依惯例按照《中华人民共和国国境卫生检疫法》等法律法规实施常规检疫。
+        </item>
+
+
+        <item>留学生回国优惠政策\n
+1落户政策\n
+户籍管理制度算是中国独有的制度之一，户口对我们限制有很多，购房，子女读书都需要本地的户籍。所以能够解决户口对于在北、上、广、深等一线城市以及一系列准一线城市工作的人来说，是个非常大的诱惑。而对于留学生而言，这个也是一样的。在国外或者港澳台地区获得学士以上学位的留学人员可以享受跨地区派遣落户的优惠政策。其中，留学人员申请办理回国工作派遣和落户手续需出具以下相关材料，其中主要包括国外学历学位认证、国内用人单位接受函、留学回国人员证明、护照和留学签证以及档案保管证明和户口证明。而根据有关我国公派或者自费出国留学的规定，只要具备以下条件之一者即可申请办理留学人员引进，办理北京市或者其他地区的户口：\n
+1、在国外取得硕士及以上学位；\n
+2、出国前已办理解除公职手续的留学回国人员；\n
+3、出国留学一年以上(360天以上)；\n
+4、申请在北京落户的需要在国外取得硕士或者以上学位，并且学业结束回国两年内，按要求把所有申请材料递交至教育部留学服务中心受理；\n
+5、申请到其他省会城市(不包括上海、深圳)落户的需要大学本科以上或者以上学历。\n
+
+2免税车福利\n
+以学习和进修为目的，无论公派或自费在国外或者港澳台地区留学一年以上的留学人员，在回国工作时，还可以通过海关购买一辆免税轿车。按国家相关文件规定，留学回国人员所购免税车可免除汽车进口部件关税和车辆购置税。这是每个符合规定条件的留学回国人员都可以享受到的优惠政策。\n
+1、完成学业或进修结束后二年内回国定居工作；\n
+2、毕业或进修结束后首次入境未超过一年；\n
+3、有免税指标(学习期间连续在外180天计一个免税指标，中途回国停留时间不超过1个月可连续计算)；\n
+4、免征进口零部件关税。这是汽免税车生产企业在进口零部件时上缴的关税，对留学回国人员免征这部分关税后，企业可到海关办理退税；\n
+5、留学生回国购买免税车，具体是指能够免除所购汽车零部件中的进口关税和车辆购置税(约占整车价格的11.7%)；\n
+6、根据不同车型费用不同，总体的优惠费用在0.71—15.21万元间；\n
+7、车型不同，需要等待的购买时间也不同，一般车型为2—3个月，快者为一个半月左右。\n
+
+3创业优惠政策\n
+高层次留学人才回国创办企业，按照国家的产业和区域税收政策享受相应的税收优惠。其中，创办高新技术企业的，享受国家高新技术企业优惠政策。留学人员创业园区要大力引进海外高层次留学人才回国创业，配备专门人员，为高层次留学人才创业提供服务，简化审批手续，提供厂房、设备和配套设施，并在房租等方面给予优惠。以深圳地区为例，留学生回国后或香港留学生回内地后，选择在深圳创业的话，在深圳创业园进行注册企业，可以一次性获得创业前期5万到15万的补贴。如果留学生进入创业园后，从事高新科技项目的话，这时候，科研经费大概是10万到15万左右。如果是在北京创业，那么可以到中关村科技园区内注册企业。中关村科技园内有很多留学生创业园，如果企业注册资金达到五十万人民币并且你在海外拿到硕士及以上学位，企业还能享受更多的优惠福利。当然还有做学术研究方面的政策、留学生子女入学优惠政策等，各个地区纷纷出招招揽留学生人才。\n
+
+4减税政策获得留学回国人员证明的留学人员，在一些地方的高科技园区创业，也可以享受一些减免税的政策。这根据每个地方及创业园区，制定的优惠政策不一，而不同。但总体上，普遍都是可以享受到各类优惠政策的。\n
+5各项优先权利还可享受各项优先权利。如优先推荐入驻企业获得金融机构的资金支持;优先安排留学人员子女入学;定期组织入驻企业参加各种人才洽谈会、产品展示会、展览会等。为海外高层次留学人才回内地工作建立绿色通道。事实上，高层次留学人才是我国留学人才的骨干，是国内经济社会发展和科技创新急需的紧缺人才。
+        </item>
+
+
+        <item>留港政策\n
+        毕业的小伙伴们如果未来毕业想在香港工作，也可以关注IANG签证办理，即使身在内地，也有一些材料可以提前准备好。帮大家整理了“IANG签证”的基本要点和办理方式，希望对大家有所帮助。\n
+
+只有在香港全日制学习毕业人士才能申请，当然这也是目前大部分留学生在港工作时所用的签证。而且没找到工作之前也可以申请，只要在毕业后6个月内申请即可。即将毕业的小伙伴现在如果在内地，可以先着手准备赴港工作同意书，因为这是需要内地人才市场开具的。\n
+其他需要的材料如下：\n
+1.学校开具的IANG专用毕业证明（复印件）\n
+2.内地人才市场开具的赴港工作同意书（原件）\n
+3.港澳通行证（复印件）\n
+4.学生签证粉色label和小白条（复印件）\n
+5.香港身份证（复印件）\n
+6.ID990A表格（原件）\n
+7.一张两寸证件照，蓝底白底都可以，贴在ID990A的第二页（大概4cmx5cm，可以拿美签或者日签的照片修剪得到）\n
+办理地址：湾仔告士打道7号入境事务处6楼（地铁湾仔站A5出口）\n
+1.可以不预约，很早过去排队，8:20左右到达目的地，去的时候已经有很多人在等了。差不多是8:30正式开门；\n
+2.上六楼后不需要拿号，直接开始排队，签证官查验所有资料齐全后，就会给一张回执；\n
+3.大概7个工作日就可以拿签证正本啦，全程不超过20分钟，拿签证的时候交钱
+        </item>
+
+
+        <item>八达通\n
+        新生入学，除了到学校注册领取学生证、办理香港临时身份证、银行卡等，还有一张car是同学们一定要办的！那就是八达通了~\n
+八达通贯穿所有香港人的生活，一卡在手，生活不愁。而对于在香港认可的院校就读全日制的符合资格的学生，还可以办理学生八达通。
+怎么办理学生八达通？\n
+学生可到任何一个港铁站服务台，询问工作人员，领取申领学生八达通的表格，进行填写（个人信息、学校信息、领取八达通的地铁站等），然后需要到学校进行盖章，再把填写完毕的表格交给港铁服务台工作人员即可。
+有学校也会邮件通知学生办理八达通的信息，并会提前准备已盖好章的申请表格。学生只要根据邮件指示，到规定的办公室领取申请表格，填写好信息，就可直接交给港铁工作人员进行申请了。
+或前往“港铁学生乘车优惠计划网站”，点击“网上申请”。\n
+
+
+交通出行\n
+八达通，实际上是一张电子储值卡；无论是地铁、小巴、公共汽车、渡轮、山顶缆车、有轨电车等，都可以使用八达通进行支付。收费器可直接扣除交易金额，所以就不用再费心准备零钱，使用简易方便，并节省时间，跟内地的交通卡使用是一样的。
+而学生八达通是可以享受半价优惠的，然而并不是乘坐所有的交通工具都能有半价优惠哦。对于12岁-25岁在香港认可的院校就读全日制的学生，港铁提供半价乘车优惠，但是学生卡在乘坐巴士的时候并不享有此项优惠。\n
+餐饮支付\n
+在国内，很多高校的饭堂都是使用学校发的学生卡去支付早午晚饭的；但是在香港，一般都会使用八达通进行支付~外面的餐厅餐馆，也大多数接受顾客使用八达通结账，方便到不行~\n
+日常购物\n
+在香港生活，免不了各种shopping，在商场、超市、7-11便利店等等的地方，使用八达通支付也都是完全无障碍的~香港目前还有使用硬币，如果用现金支付，收银员会给顾客找回不少硬币，同学们使用八达通就可以免除零钱的烦恼了~\n
+住宅门禁\n
+目前，香港有超过220栋商业大厦和住宅小区，使用“八达通”作为出入门禁卡。住客回到家，在门口用“八达通”拍一下，即可进入楼内。学生租房后，只要根据物业的指示，用八达通关联住户身份进行办理就可以了。\n
+休闲服务\n
+想去看电影？香港多家电影院线旗下的影院，均可提供“八达通购票服务”。想去游泳？香港超过40个公共游泳池，可使用“八达通”进行缴费服务。想去观看赛马？香港赛马会的沙田马场和跑马地马场，也都设有入闸机收费系统，只需用“八达通”拍一下，听到“嘟”声，即刻收取入场费进场。\n
+除了上述功能，“八达通”还有更多让你想不到的用途。如医疗挂号收费；记录学生出勤、收取学杂费；到香港公司注册处使用“电子查册服务”；到香港警务处申请“无犯罪纪录证明书”等等。
+所以说，与世界其他城市的交通智能卡相比，香港“八达通”使用范围广，贯穿“衣、食、住、行”各个环节。在香港留学的日常生活中，我们只要带着手机、香港身份证、八达通，就可以安心出门啦~
+        </item>
+
+
+        <item>银行卡\n
+        一、所需材料\n
+- 香港身份证（如有）\n
+- 港澳通行证\n
+- 内地身份证（用作内地住址证明，或驾驶证）\n
+- Visa Label（粉签）\n
+- Landing Slip（入境小白条）\n
+- 学生证（如有，纸质版offer letter也可以）\n
+- 香港联系电话或者邮箱\n
+- 香港住址证明（部分银行不需要）\n
+不同的银行对于材料的要求略有不同，具体要求以各银行为准。\n
+如果还未办理香港身份证，则可以先不提供，后续拿到了香港身份证，再去银行更新信息即可；香港临时身份证不可以作为银行开户使用。\n
+香港住址证明可以用政府税务加盖印花税章后的租房合约文件作为证明（等待政府部门盖章需一长段时间）。或者是3个月内的水电煤网账单，电话月结单等的纸质版证明。\n
+电话月结单获取方式：先申请电话卡，电讯运营商（csl，中国移动等）会先邮递一份住址确认信到填写的地址，然后这封信拿回到门店就可以办理电话卡，也就有了月结日开出的电话账单）
+住校内的同学可以使用学校SHRLO发的住址证明。\n
+
+二、办卡种类\n
+香港银行卡和内地银行卡一样分为储蓄卡和信用卡两种，一般都会选择同时办理储蓄卡和信用卡。储蓄卡用来转生活费，信用卡用来消费。\n
+储蓄卡\n
+开学时，部分银行会在学校内设立办事点，方便留学生办理银行卡，同学们可以多留意校内银行办理资讯，而且在学校办理的银行卡一般都能免一年以上的年费。
+而且很多银行卡有购汇或换汇功能，可以直接在网上换人民币或港币，特别方便。\n
+信用卡\n
+香港的信用卡基本都是永久免年费的。
+学生的信用卡一般比较容易申请，一些银行也会推出和大学合作的校园联营信用卡，所以在校内办理信用卡不仅比较容易，还能省掉很多审核时间。\n
+三、银行选择\n
+各个银行的储蓄卡除了转账汇款费率和优惠活动有一些区别之外，其他方面都是差不多的。所以同学们选择办理哪家银行的银行卡，完全取决于自身需求。小球长将同学们比较常办理的几个银行卡，进行了一个简单的比较，可供同学们参考。\n
+1.中国银行\n
+
+ATM分布广取钱方便\n
+无账户管理费(存10块港币也不收月费)\n
+中港两地汇款免费(中国内地及中国香港)\n
+有实体卡,支持内地取现或消费,支持内地微信支付\n
+2、工商银行\n
+
+无账户管理费(无需存款也可免费永久持有)\n
+支持内地工行AMT取现免费\n
+有实体卡,支持内地取现或消费,支持内地微信支付\n
+3、东亚银行\n
+
+中港两地汇款有免费额度(中国内地及中国香港)\n
+有实体卡,支持内地取现免费\n
+很多演唱会门票用东亚信用卡有优先购票早鸟通道，而且刷卡购UA电影票也会有折扣。\n
+4、恒生银行\n
+
+恒生银行的ATM在香港很多\n
+有实体卡,支持内地取现或消费\n
+恒生信用卡消费可累积cash dollar，假如消费五十HKD就可以返现1cash dollar到账户上\n
+
+
+5、汇丰银行\n
+
+无账户管理费,可免费长久持有\n
+支持全球同行汇款免费(内地需贵宾账户)\n
+有实体卡,支持内地取现或消费\n
+推荐：办理中国银行（香港）与恒生银行的银行卡，因为这两家银行的ATM分布最广，取钱最方便。\n
+四、学校银行网点分布\n
+同学们在办理银行卡的时候，可以选择和学校有合作/有网点的银行，这样交学费和取款都会更加方便。
+而且合作卡的卡面有一般带有学校特色，还挺具有纪念意义的。\n
+-香港大学：\n
+中国银行，东亚银行，恒生银行，汇丰银行\n
+-香港中文大学：\n
+东亚银行，恒生银行，汇丰银行\n
+-香港城市大学：\n
+中国银行，恒生银行\n
+-香港理工大学：\n
+恒生银行，渣打银行，汇丰银行，东亚银行\n
+-香港浸会大学：\n
+恒生银行，东亚银行\n
+-香港科技大学：\n
+中国银行，恒生银行，东亚银行\n
+
+五、使用TIPS\n
+●银行卡小球长建议是尽量早些办理，避免花费一天都在银行排队。有些银行办理银行卡需要提前预约。\n
+●办理好银行卡的开户手续后，不会当场拿到银行卡，储蓄卡一般会在一周内寄到你在香港的通讯地址，信用卡则可能需要一个月。（在学校办理一般会比较快可以领取，有的同学办理学校联合银行的银行卡，第二天就可以领取，信用卡一周后就邮寄到通讯地址。）\n
+●收到卡后，需要按照银行的要求激活账户（一般是储蓄一定额度到银行卡里）。\n
+●在香港的银行所有的密码（银行卡密码，银行手机APP/网银密码）都是通过信件的模式传达的（有些时候是由柜员直接交到你手中的），所以一定要多通讯信箱。获得初始密码后，需要去ATM机上修改密码，记得在修改完密码后，牢记新密码，同时妥善处理信件中的初始密码（最好销毁！！！）如果忘记密码的话，需去柜台找工作人员帮助。\n
+●注意存款时限和信用卡还款时限，不要逾期。\n
+●内地的银行系统与香港的银行系统并不通用，有些银行在香港和内地都有业务，但是本质上内地的银行和香港的银行是两家公司，所以如果要注销账户记得要在香港办理。\n
+●没有现金充值八达通的时候，信用卡也可以拿来充值哦，详情可以咨询银行。水电煤网费也可以使用信用卡缴纳，详情可以查看纸质账单的背面。\n
+●如果需要从内地银行卡向香港银行卡中转账，需要提前购买港币外汇再以港币跨境汇款，这种方式需要知道收款银行的8位或11位SWIFT CODE（可以打电话给香港银行方面询问），通常手续费较高，100元左右。
+        </item>
+
+    </string-array>
+    <integer-array name="images_array">
+        <item>@drawable/news1</item>
+        <item>@drawable/news2</item>
+        <item>@drawable/news3</item>
+        <item>@drawable/news4</item>
+        <item>@drawable/news5</item>
+        <item>@drawable/news6</item>
+        <item>@drawable/news7</item>
+        <item>@drawable/news8</item>
+    </integer-array>
+    <string name="title_activity_hao_pin">HaoPinActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

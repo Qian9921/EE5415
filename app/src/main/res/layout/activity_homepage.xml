@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7DBDD">
+
+<!--    ************************主页****************************-->
+
+
+<!--    上半部分-->
+    <LinearLayout
+        android:id="@+id/zhuye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/royalblue"
+        android:orientation="horizontal"
+        android:padding="30px">
+
+        <!--天气功能-->
+
+        <TextView
+            android:id="@+id/weather_ed"
+            android:layout_width="150dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:drawableTopCompat="@mipmap/weaimg1" />
+
+        <LinearLayout
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@color/royalblue"
+            android:orientation="vertical">
+            <!--每日名言-->
+
+            <TextView
+                android:id="@+id/saying_ed"
+                android:layout_width="211dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:text="今天不学习明天变垃圾今天不学习明天变垃圾今天不学习"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/saying_ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="——今天不学习明天变垃圾今天"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    下方菜单栏-->
+
+    <LinearLayout
+        android:id="@+id/caidan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/zhuye"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/rent_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/rentimg1"
+                android:gravity="center"
+                android:text="租房信息" />
+
+            <Button
+                android:id="@+id/play_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/playimg"
+                android:gravity="center"
+                android:text="推荐游玩" />
+
+            <Button
+                android:id="@+id/food_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/foodimg"
+                android:gravity="center"
+                android:text="推荐食物" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/new_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/newimg"
+                android:gravity="center"
+                android:text="香港政策" />
+
+            <Button
+                android:id="@+id/trans_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/transimg"
+                android:gravity="center"
+                android:text="翻译" />
+
+            <Button
+                android:id="@+id/map_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableTop="@mipmap/mapimg"
+                android:gravity="center"
+                android:text="地图" />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    下方内容-->
+    <LinearLayout
+        android:id="@+id/content_ed"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:layout_below="@+id/caidan">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="428dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xiamian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/ic_home_black_24dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add_circle_outline_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:src="@drawable/ic_pers"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
