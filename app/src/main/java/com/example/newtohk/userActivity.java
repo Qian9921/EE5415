@@ -108,7 +108,7 @@ public class userActivity<LocalActivity> extends Activity implements View.OnClic
     public void onClick(View view) {
 
         if(view.getId()==R.id.imageView7) {//主页
-            Intent i=new Intent(this,ZhuYeActivity.class);
+            Intent i=new Intent(this,ZhuYeActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivityForResult(i, 1);
         }
         if(view.getId()==R.id.imageView9) {//发布
