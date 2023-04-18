@@ -133,7 +133,7 @@ public class ZhuYeActivity extends AppCompatActivity implements View.OnClickList
             startActivityForResult(i, 1);
         }
         if(view.getId()==R.id.imageView10) {//个人中心
-            Intent i=new Intent(this,userActivity.class);
+            Intent i=new Intent(this,userActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivityForResult(i, 1);
         }
     }
