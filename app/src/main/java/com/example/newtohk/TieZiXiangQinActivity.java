@@ -190,7 +190,7 @@ public class TieZiXiangQinActivity extends AppCompatActivity implements View.OnC
             //toast.setGravity(Gravity.CENTER,0,0);//设置其显示在屏幕中间
             toast.show();
             handler.sendEmptyMessage(0);// 执行耗时的方法之后发送消息给handler
-            Intent intent = new Intent(this, TieZiXiangQinActivity.class);
+            Intent intent = new Intent(this, TieZiXiangQinActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
     }
