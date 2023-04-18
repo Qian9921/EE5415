@@ -166,7 +166,7 @@ public class FaTieAcivity extends AppCompatActivity implements View.OnClickListe
                     } catch (ClassNotFoundException | SQLException e) {
                         e.printStackTrace();
                     }
-                    Intent i1=new Intent(FaTieAcivity.this,ZhuYeActivity.class);
+                    Intent i1=new Intent(FaTieAcivity.this,ZhuYeActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivityForResult(i1, 1);
 
                 }
@@ -178,11 +178,11 @@ public class FaTieAcivity extends AppCompatActivity implements View.OnClickListe
 
 
         if(view.getId()==R.id.imageView7){//主页
-            Intent i=new Intent(this,ZhuYeActivity.class);
+            Intent i=new Intent(this,ZhuYeActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivityForResult(i, 1);
         }
         if(view.getId()==R.id.imageView10){//个人中心
-            Intent i=new Intent(this,userActivity.class);
+            Intent i=new Intent(this,userActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivityForResult(i, 1);
         }
     }
